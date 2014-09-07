@@ -1,0 +1,1 @@
+a simple php script to generate many of your current OSX settings into an executable .sh file so you can configurate a new mac in just a few seconds <3.
