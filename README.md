@@ -2,5 +2,7 @@ a simple php script to generate many of your current OSX settings into an execut
 
 **WARNING!!**: the script is NOT ready for production yet
 
+
 **use** `php run.php` to generate your settings
+
 **use** `sh userSettings.sh` to set your settings
