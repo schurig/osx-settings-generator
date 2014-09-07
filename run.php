@@ -45,7 +45,7 @@ class OSXSettings {
   public function writeConfigFile($commands) {
     $commandsNewLine = implode("\n", $commands);
 
-    $file = 'userSettings';
+    $file = 'userSettings.sh';
     // Schreibt den Inhalt in die Datei zurück
     if(file_put_contents($file, $commandsNewLine)) {
       return true;

@@ -1,3 +1,0 @@
-defaults write com.apple.screencapture type -sting jpg
-
-defaults write com.apple.screencapture disable-shadow -bool 1
