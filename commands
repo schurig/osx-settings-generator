@@ -1,0 +1,3 @@
+defaults %operation% NSGlobalDomain AppleShowScrollBars -%type% %value%
+defaults %operation% com.apple.screencapture type -%type% %value%
+defaults %operation% com.apple.screencapture disable-shadow -%type% %value%
