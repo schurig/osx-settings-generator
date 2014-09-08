@@ -24,7 +24,7 @@ class OSXSettings {
             $newCommand = str_replace('%operation%', 'write', $command);
             $newCommand = str_replace('%type%', $type, $newCommand);
             if($type === 'string') {
-              $newCommand = str_replace('%value%', "\"" . $outcome[0] . "\"", $newCommand);
+              $newCommand = str_replace('%value%', '"' . $outcome[0] . '"', $newCommand);
             } else {
               $newCommand = str_replace('%value%', $outcome[0], $newCommand);
             }
@@ -76,7 +76,7 @@ class OSXSettings {
     if($outcome === "Type is boolean") {
       $type = "bool";
     } else if($outcome === "Type is string") {
-      $type = "sting";
+      $type = "string";
     } else {
       $type = "DONT#KNOW!!!!";
     }
